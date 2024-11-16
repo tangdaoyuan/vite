@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import { performance } from 'node:perf_hooks'
 
+console.log('fucker fuck fucker')
+
 if (!import.meta.url.includes('node_modules')) {
   try {
     // only available as dev dependency
